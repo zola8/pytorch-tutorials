@@ -8,3 +8,5 @@ uv add torch torchvision --index https://download.pytorch.org/whl/cu128
 ```
 
 https://www.youtube.com/watch?v=Z_ikDlimN6A
+
+http://matrixmultiplication.xyz/

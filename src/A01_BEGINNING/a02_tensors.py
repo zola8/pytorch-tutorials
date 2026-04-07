@@ -6,6 +6,7 @@ if __name__ == '__main__':
     print("scalar:", scalar)
     print("dimension:", scalar.ndim)
     print("value:", scalar.item())
+    # dim: 0
 
     print()
 
@@ -14,6 +15,7 @@ if __name__ == '__main__':
     print("vector:", vector)
     print("dimension:", vector.ndim)
     print("shape:", vector.shape)
+    # dim: 1
 
     print()
 
@@ -25,6 +27,7 @@ if __name__ == '__main__':
 
     print("dimension:", matrix1.ndim)
     print("shape:", matrix1.shape)
+    # dim: 2
 
     print()
 
@@ -32,3 +35,4 @@ if __name__ == '__main__':
     tensor1 = torch.tensor([[[1, 2, 3], [4, 5, 6]]])
     print("dimension:", tensor1.ndim)
     print("shape:", tensor1.shape)
+    # dim: 3+
